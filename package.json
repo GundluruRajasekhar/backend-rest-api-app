@@ -1,0 +1,27 @@
+{
+  "name": "users-projects-tasks-api",
+  "version": "1.0.0",
+  "description": "REST API for Users, Projects and Tasks — backend powering the DevPulse dashboard and downstream platform",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": ["express", "mongodb", "rest-api", "tasks", "projects"],
+  "author": "Gundluru Rajasekhar",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-validator": "^7.2.0",
+    "helmet": "^7.1.0",
+    "mongoose": "^8.6.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
